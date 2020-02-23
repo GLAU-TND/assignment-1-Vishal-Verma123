@@ -63,11 +63,12 @@ public class Tasks {
         scanner.nextLine();
         while (true) {
             String temp = scanner.nextLine();
-            if (temp.matches("^[a-z]+[0-9]*@[a-z]+\\.[a-z]+$")) {
+            if (temp.matches("^[A-Za-z]+[@][A-Za-z]+([.][A-Za-z]+)+")) {
+
                 linkedList1.addLast(new Person(firstName, lastName, linkedList, temp));
                 break;
             } else {
-                System.out.println("Invalid email address ! Enter again");
+                System.out.println("Invalid email address ! Enter again..");
             }
         }
     }
