@@ -49,6 +49,7 @@ public class LinkedList1 {
     }
 
     public int indexOf(String firstName) {
+
         Node currently = first;
         int response = 0;
         while (currently != null) {
