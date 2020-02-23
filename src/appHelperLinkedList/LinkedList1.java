@@ -121,6 +121,7 @@ public class LinkedList1 {
     }
 
     public void display() {
+
         var current = first;
         System.out.println("Contact list--->");
         System.out.println();
