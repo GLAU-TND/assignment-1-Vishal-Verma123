@@ -63,7 +63,8 @@ public class Tasks {
         scanner.nextLine();
         while (true) {
             String temp = scanner.nextLine();
-            if (temp.matches("^[A-Za-z]+[@][A-Za-z]+([.][A-Za-z]+)+")) {
+            if (temp.matches("^[(A-Z)|(a-z)|([0-9])]+[@][(A-Z)|(a-z)|([0-9])]+([.][(A-Z)|(a-z)|[0-9])]+)+")) {
+
 
                 linkedList1.addLast(new Person(firstName, lastName, linkedList, temp));
                 break;
