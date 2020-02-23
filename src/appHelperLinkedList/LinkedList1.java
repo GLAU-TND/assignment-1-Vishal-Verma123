@@ -21,6 +21,7 @@ public class LinkedList1 {
     }
 
     public void addFirst(Person person) {
+
         Node node = new Node(person);
         if (isEmpty()) {
             first = node;
