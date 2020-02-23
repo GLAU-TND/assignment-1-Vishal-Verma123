@@ -63,6 +63,7 @@ public class LinkedList1 {
     }
 
     public void removeFirst() {
+
         if (first == last) {
             first = null;
             last = null;
