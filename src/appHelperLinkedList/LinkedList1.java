@@ -81,6 +81,7 @@ public class LinkedList1 {
     }
 
     private Node getPreviousNode(Node node) {
+
         var current = first;
         while (current.getNext() != null) {
             if (current.getNext() == node) {
