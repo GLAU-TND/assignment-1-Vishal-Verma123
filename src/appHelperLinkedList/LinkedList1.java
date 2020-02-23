@@ -93,6 +93,7 @@ public class LinkedList1 {
     }
 
     public void deleteNode(int position) {
+
         if (first == null)
             return;
         Node temp = first;
