@@ -41,6 +41,7 @@ public class LinkedList1 {
     }
 
     public boolean exist(String firstName) {
+
         if (indexOf(firstName) != -1) {
             return true;
         }
