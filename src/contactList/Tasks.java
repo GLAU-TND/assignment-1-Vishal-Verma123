@@ -83,6 +83,7 @@ public class Tasks {
     }
 
     public void deleteContact(LinkedList1 linkedList1) {
+
         if (!linkedList1.isEmpty()) {
             System.out.println("Here are all the contacts: Press the number against" +
                     " to delete the contact.");
