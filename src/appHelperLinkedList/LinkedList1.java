@@ -138,6 +138,7 @@ public class LinkedList1 {
     }
 
     public void displayOne() {
+
         var current = first;
         int count = 0;
         System.out.println("-----------------------*-------------------------");
