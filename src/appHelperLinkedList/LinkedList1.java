@@ -152,6 +152,7 @@ public class LinkedList1 {
     }
 
     public void getNode(int pos) {
+
         var current = first;
         int index = 0;
         while (current != null) {
