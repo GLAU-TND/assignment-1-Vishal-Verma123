@@ -110,6 +110,7 @@ public class LinkedList1 {
     }
 
     public int size() {
+
         var current = first;
         int index = 1;
         while (current.getNext() != null) {
