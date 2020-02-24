@@ -16,9 +16,10 @@ public class Main {
         System.out.println("Press 4 to delete a contact");
         System.out.println("Press 5 to exit program ");
         int choice = Integer.parseInt(scanner.nextLine());
+
         if (choice == 1) {
             tasks.addContact(linkedList1);
-            choice = Integer.parseInt(scanner.nextLine());
+            choice = scanner.nextInt();
         }
         if (choice == 2) {
             tasks.viewcontact(linkedList1);

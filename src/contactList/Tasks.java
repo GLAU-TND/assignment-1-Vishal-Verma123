@@ -53,6 +53,8 @@ public class Tasks {
                         break;
                     } else {
                         System.out.println("Add correct number");
+                        scanner.nextLine().trim();
+                        break;
                     }
                 }
             } else {
@@ -63,8 +65,7 @@ public class Tasks {
         scanner.nextLine();
         while (true) {
             String temp = scanner.nextLine();
-            if (temp.matches("^[(A-Z)|(a-z)|([0-9])]+[@][(A-Z)|(a-z)|([0-9])]+([.][(A-Z)|(a-z)|[0-9])]+)+")) {
-
+            if (temp.matches("[a-z0-9]+@[a-z]+[.][a-z]+")) {
 
                 linkedList1.addLast(new Person(firstName, lastName, linkedList, temp));
                 break;
